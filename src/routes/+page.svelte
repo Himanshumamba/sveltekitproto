@@ -22,7 +22,7 @@ span.numberlist.one_text {
     align-items: center;
     justify-content: center;
     background: linear-gradient(102deg, #EBF4FF 0%, #E6FFFA 100%);
-    height: 500px;
+    height: 80vh;
     clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
     width: 100%;
   }
@@ -91,9 +91,8 @@ span.numberlist.one_text {
   }
 
   .hero-image {
-    max-width: 100%;
-    height: 300px;
-    width: 20%;
+ 
+    width: 30%;
     border-radius: 50%;
   }
 
@@ -109,7 +108,6 @@ span.numberlist.one_text {
     font-family: 'Lato', sans-serif;
     letter-spacing: 0px;
     color: #4A5568;
-    font-weight: 100;
     opacity: 1;
     margin: 0;
   }
@@ -123,8 +121,7 @@ display: flex;
     height: 50vh;
     justify-content: center;
     position: relative;
-    padding: 20px;
-    top: -7rem;
+    top: -9rem;
     background: transparent linear-gradient(104deg, #E6FFFA 0%, #EBF4FF 100%) 0% 0% no-repeat padding-box;
 clip-path: polygon(49.2% 3.8%, 84.9% 1%, 100.1% 4.8%, 99.6% 81%, 84.6% 96%, 55.7% 95.8%, 0% 100.3%, 0% 0%);    border-radius: 0% 40% 45% 0%;
 }
@@ -139,6 +136,8 @@ clip-path: polygon(49.2% 3.8%, 84.9% 1%, 100.1% 4.8%, 99.6% 81%, 84.6% 96%, 55.7
 .arrow.last_arrow{
     transform: translate(2rem, -13rem);
 }
+
+
 .numberlist {
   display: inline-flex;
   justify-content: center; 
@@ -146,10 +145,9 @@ clip-path: polygon(49.2% 3.8%, 84.9% 1%, 100.1% 4.8%, 99.6% 81%, 84.6% 96%, 55.7
   width: 13vw; 
   height: 13vw; 
   border-radius: 50%;
-  background-color: #f8f4f4; /*changed  as  the xd color is nto visible8*/
+  background-color: #F7FAFC; /*changed  as  the xd color is nto visible8*/
   color: #718096; 
   font-size: 130px; 
-  font-weight: bold; 
   margin-right: 2vw; 
 }
 .numberlist_two {
@@ -165,13 +163,8 @@ clip-path: polygon(49.2% 3.8%, 84.9% 1%, 100.1% 4.8%, 99.6% 81%, 84.6% 96%, 55.7
 }
 .text {
     text-align: left;
-    padding:2rem;
 }
-.timeline.sectend{
-    position: relative;
-    top: -15rem;
 
-}
 .image {
     flex: 1;
     display: flex;
@@ -183,16 +176,6 @@ clip-path: polygon(49.2% 3.8%, 84.9% 1%, 100.1% 4.8%, 99.6% 81%, 84.6% 96%, 55.7
     height: auto;
 }
 
-.arrow {
-      display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    left: -8rem;
-    top: -2rem;
-    z-index: +1;
-
-}
 .Erstellen {
     margin-left: -5rem;
     z-index:+1;
@@ -207,9 +190,35 @@ color:#718096;
 
 }
 
+@media(min-width:768px){
+ .timeline-item.one {
+    margin-left: -6rem;
+}
+.timeline-item.second{
+  gap:22rem;
+}
 
+.arrow {
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height:50vh;
+    left: -8rem;
+    top: -2rem;
+    z-index: +1;
+
+}
+
+.timeline-item.third{
+ transform: translate(2rem, -23rem);
+ gap:0
+
+}
+}
 
   @media (max-width: 768px) {
+
     .Erstellen {
 display: inline-block;
     opacity: 0.8;
@@ -220,9 +229,7 @@ display: inline-block;
         margin-top: 5rem;        
         clip-path: none;
     }
-.timage_sectionone {
-    padding-bottom: 4rem;
-}
+
     .bubble {
     display: flex;
     height: 64vh;
@@ -238,7 +245,6 @@ clip-path: polygon(36.4% 6.5%, 69.9% 2.8%, 100.1% 1.8%, 100.1% 89.5%, 84.7% 96.5
 }
 
 .timeline.sectend{
-    position: static;
     padding-left: 5rem;
 }
       .content {
@@ -286,8 +292,14 @@ clip-path: polygon(36.4% 6.5%, 69.9% 2.8%, 100.1% 1.8%, 100.1% 89.5%, 84.7% 96.5
 
 
 
-    .text, .image {
+     .image {
         text-align: center;
+    }
+
+    .text{
+              text-align: center;
+        line-height: 1;
+        padding-bottom: 2rem;
     }
 
     .arrow img {
@@ -295,7 +307,6 @@ display:none;
 
     }
     .hero-banner {
-      height: 441px;
       flex-direction: column;
           clip-path: none;
 
@@ -324,6 +335,14 @@ display:none;
         transform: translateX(-50%);
         z-index: 1000;
 }
+.numberlist.s-y_bCXRrkrYfP.s-y_bCXRrkrYfP {
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: #718096;
+    font-size: 130px;
+    margin-right: 2vw;
+}
 
 
     .three-buttons {
@@ -337,7 +356,8 @@ display:none;
   }
   .profile_one{
       content: url('/undraw_Profile_data_re_v81r@2x.png'); 
-      width:50%;
+      width: 50%;
+        margin-bottom: 2rem;
 
 
   }
@@ -353,6 +373,7 @@ display:none;
       
 
   }
+  
   }
 </style>
 
@@ -376,7 +397,7 @@ display:none;
 <div class="three-buttons">
   <button class="active">Arbeitnehmer</button>
   <button>Arbeitgeber</button>
-  <button>Arbeitgeber</button>
+  <button>Temporärbüro</button>
 </div>
 
 <div class="heading-section">
@@ -385,7 +406,7 @@ display:none;
 <section class="timeline">
     <div class="container">
         <!-- Section 1-->
-        <div class="timeline-item">
+        <div class="timeline-item one">
             <div class="text_sectionone">
 
                 <p class="Nhead_sub"><span class="numberlist  one_text" >1.</span>
@@ -407,7 +428,7 @@ display:none;
 
         <!-- Section 2-->
         <section class="bubble">
-        <div class="timeline-item ">
+        <div class="timeline-item second">
 
             <div class="timage">
                 <img src="profile_m.svg"  alt="Image" class="profile_two">
@@ -427,7 +448,7 @@ Verwalte deinen Lebenslauf</p>
         <!-- Section 3 -->
 <section class="timeline  sectend">
 
-     <div class="timeline-item ">
+     <div class="timeline-item  third">
             <div class="text">
 
                 <p class="Nhead_sub"><span class="numberlist" >3.</span>
