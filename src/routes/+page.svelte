@@ -7,6 +7,7 @@
     display: inline-block;
     opacity: 0.8;
     max-width: 90%;
+    text-align:right;
     margin: 0 auto;
 }
 
@@ -59,10 +60,7 @@ span.numberlist.one_text {
     color: #2D3748;
     font-family: 'Lato', sans-serif;
   }
-.timage img {
-    width: 100%;
-    height: auto;
-}
+
   button {
     background-color: #fff;
     color: #319795ad;
@@ -219,8 +217,12 @@ display: inline-block;
     max-width: 50%;
     margin: 0 auto;
 }
+.hero-banner {
+        height: 100vh;
+        clip-path: none;
+    }
 .timage_sectionone {
-    padding: 4rem;
+    padding-bottom: 4rem;
 }
     .bubble {
     display: flex;
@@ -250,7 +252,6 @@ clip-path: polygon(36.4% 6.5%, 69.9% 2.8%, 100.1% 1.8%, 100.1% 89.5%, 84.7% 96.5
 
 
     .hero_button{
-      position:absolute;
         bottom: -3rem;
       z-index: +1;
     }
@@ -310,16 +311,50 @@ display:none;
               margin-top: 6rem;
     }
 
-    h1 {
-      font-size: clamp(20px, 6vw, 36px);
-    }
+   
   }
 
   @media (max-width: 480px) {
+    .fixed-container {
+      
+           position: fixed;
+        bottom: 20px;
+        background-color: #FFFFFF;
+        width: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1000;
+}
+
 
     .three-buttons {
               margin-top: 6rem;
     }
+    .hero-banner {
+        height: 100vh;
+        clip-path: none;
+    }
+    .hero-image {
+    content: url('/undraw_agreement_aajr@2x.png');
+  }
+  .profile_one{
+      content: url('/undraw_Profile_data_re_v81r@2x.png'); 
+      width:50%;
+
+
+  }
+    .profile_two{
+      content: url('/undraw_task_31wc@2x.png'); 
+      width:70%;
+      
+
+  }
+      .profile_three{
+      content: url('/undraw_personal_file_222m@2x.png'); 
+      width:80%;
+      
+
+  }
   }
 </style>
 
@@ -330,9 +365,13 @@ display:none;
 <div class="hero-banner">
   <div class="content">
     <h1>Deine Job <br> website</h1>
+    <div class="fixed-container">
+
     <button class="hero_button">Kostenlos Registrieren</button>
+    </div>
   </div>
-  <img src="/undraw_agreement_aajr.jpg" alt="Hero Image" class="hero-image" />
+  
+  <img src="/undraw_agreement_aajr.jpg" alt="Hero Image" class="hero-image"  />
 </div>
 
 <!-- Pan Buttons -->
@@ -356,7 +395,7 @@ display:none;
 
             </div>
             <div class="timage_sectionone">
-                <img src="/profile_first.svg"  alt="Resume Image">
+                <img src="/profile_first.svg"  alt="Resume Image" class="profile_one">
             </div>
         </div>
 
@@ -373,7 +412,7 @@ display:none;
         <div class="timeline-item ">
 
             <div class="timage">
-                <img src="profile_m.svg"  alt="Image">
+                <img src="profile_m.svg"  alt="Image" class="profile_two">
             </div>
             <div class="text">
                             <p class="Nhead_sub"><span class="numberlist_two" >2.</span>
@@ -397,7 +436,7 @@ Verwalte deinen Lebenslauf</p>
                 <span class="text_bwerben"> Mit nur einem Klick <br> bewerben <span> </p>
             </div>
             <div class="timage">
-                <img src="/profile_last.svg"  alt="Resume Image">
+                <img src="/profile_last.svg"  alt="Resume Image" class="profile_three">
             </div>
         </div>
 

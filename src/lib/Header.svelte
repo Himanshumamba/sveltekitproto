@@ -42,8 +42,10 @@
 
 @media (max-width: 768px) {
     header {
-        position: static; /* Change to static for smaller screens */
-        box-shadow: none; /* Optional: Remove shadow if needed */
+    padding: 28px 0;
+    z-index: 1000;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
     }
 }
 </style>
