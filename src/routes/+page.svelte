@@ -231,6 +231,9 @@ padding-bottom:2rem;
 }
 
   @media (max-width: 768px) {
+span.numberlist.three{
+    align-items: baseline;
+}
     .text_bwerben,.Erstellen,Verwalte {
       font-size:19px
     }
@@ -339,7 +342,9 @@ display:none;
   }
 
   @media (max-width: 480px) {
-
+span.numberlist.three{
+    align-items: center;
+}
     .heading-section{
 
       margin:0rem;
@@ -480,7 +485,7 @@ display:none;
      <div class="timeline-item  third">
             <div class="text">
 
-                <p class="Nhead_sub"><span class="numberlist" >3.</span>
+                <p class="Nhead_sub"><span class="numberlist three" >3.</span>
                 <span class="text_bwerben"> Mit nur einem Klick <br> bewerben <span> </p>
             </div>
             <div class="timage">
