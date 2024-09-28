@@ -4,7 +4,6 @@
 
 <style global>
 .text_bwerben{
-    display: inline-block;
     opacity: 0.8;
     max-width: 90%;
     text-align:right;
