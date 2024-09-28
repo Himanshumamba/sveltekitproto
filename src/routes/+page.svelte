@@ -151,7 +151,6 @@ clip-path: polygon(49.2% 3.8%, 84.9% 1%, 100.1% 4.8%, 99.6% 81%, 84.6% 96%, 55.7
   font-size: 130px; 
   font-weight: bold; 
   margin-right: 2vw; 
-  opacity: 0.5;
 }
 .numberlist_two {
   display: inline-flex;
@@ -165,8 +164,8 @@ clip-path: polygon(49.2% 3.8%, 84.9% 1%, 100.1% 4.8%, 99.6% 81%, 84.6% 96%, 55.7
 
 }
 .text {
-    flex: 1;
     text-align: left;
+    padding:2rem;
 }
 .timeline.sectend{
     position: relative;
@@ -201,7 +200,7 @@ clip-path: polygon(49.2% 3.8%, 84.9% 1%, 100.1% 4.8%, 99.6% 81%, 84.6% 96%, 55.7
 
 .Nhead_sub{
 color:#718096;
- font-size: clamp(15.75px, 4vw + 10px, 30px);
+ font-size: clamp(15.75px, 4vw + 5px, 26px);
  font-family: 'Lato', sans-serif;
 
 
@@ -218,7 +217,7 @@ display: inline-block;
     margin: 0 auto;
 }
 .hero-banner {
-        height: 100vh;
+        margin-top: 5rem;        
         clip-path: none;
     }
 .timage_sectionone {
@@ -318,7 +317,7 @@ display:none;
     .fixed-container {
       
            position: fixed;
-        bottom: 20px;
+        bottom: 0;
         background-color: #FFFFFF;
         width: 100%;
         left: 50%;
@@ -331,7 +330,6 @@ display:none;
               margin-top: 6rem;
     }
     .hero-banner {
-        height: 100vh;
         clip-path: none;
     }
     .hero-image {
