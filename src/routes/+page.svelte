@@ -12,9 +12,7 @@
 }
 
 
-span.numberlist.one_text {
-    align-items: center;
-}
+
 
   .hero-banner {
     position: relative;
@@ -156,8 +154,8 @@ clip-path: polygon(49.2% 3.8%, 84.9% 1%, 100.1% 4.8%, 99.6% 81%, 84.6% 96%, 55.7
   align-items: center;
   color: black; 
   font-size: 130px; 
-  font-weight: bold; 
   color:#718096;
+  padding-left:1rem;
 
 
 }
@@ -183,7 +181,6 @@ clip-path: polygon(49.2% 3.8%, 84.9% 1%, 100.1% 4.8%, 99.6% 81%, 84.6% 96%, 55.7
 
 .Nhead_sub{
 color:#718096;
- font-size: clamp(15.75px, 4vw + 5px, 26px);
  font-family: 'Lato', sans-serif;
 
 
@@ -226,11 +223,13 @@ color:#718096;
 }
 
   @media (max-width: 768px) {
+    .text_bwerben,.Erstellen,Verwalte {
+      font-size:19px
+    }
 
     .Erstellen {
 display: inline-block;
     opacity: 0.8;
-    max-width: 50%;
     margin: 0 auto;
 }
 .hero-banner {
@@ -243,9 +242,7 @@ display: inline-block;
     height: 64vh;
     justify-content: center;
     position: unset;
-    padding: 20px;
-    padding-left: 64px;
-    margin: 0rem;
+    padding-left: 20px;
     top: -7rem;
     background: transparent linear-gradient(104deg, #E6FFFA 0%, #EBF4FF 100%) 0% 0% no-repeat;
 clip-path: polygon(36.4% 6.5%, 69.9% 2.8%, 100.1% 1.8%, 100.1% 89.5%, 84.7% 96.5%, 39.3% 98.4%, 0.4% 93.5%, 0% 0%);
@@ -253,7 +250,7 @@ clip-path: polygon(36.4% 6.5%, 69.9% 2.8%, 100.1% 1.8%, 100.1% 89.5%, 84.7% 96.5
 }
 
 .timeline.sectend{
-    padding-left: 5rem;
+    padding-left: 1rem;
 }
       .content {
         display: flex;
@@ -333,6 +330,10 @@ display:none;
   }
 
   @media (max-width: 480px) {
+     .text_bwerben,.Erstellen,Verwalte {
+      font-size:15.75px;
+    }
+
     .fixed-container {
       
            position: fixed;
@@ -343,13 +344,11 @@ display:none;
         transform: translateX(-50%);
         z-index: 1000;
 }
-.numberlist.s-y_bCXRrkrYfP.s-y_bCXRrkrYfP {
-    display: inline-flex;
-    justify-content: center;
-    align-items: flex-start;
-    color: #718096;
+.numberlist{
+ 
     font-size: 130px;
-    margin-right: 2vw;
+    width: max-content;
+    background-color:#fff;
 }
 
 
@@ -381,7 +380,14 @@ display:none;
       
 
   }
-  
+  span.numberlist.one_text {
+    align-items: center;
+    width:auto;
+        background-color: #fff;
+        margin-left: -2rem;
+    
+
+}
   }
 </style>
 
@@ -443,7 +449,7 @@ display:none;
             </div>
             <div class="text">
                             <p class="Nhead_sub"><span class="numberlist_two" >2.</span>
-Verwalte deinen Lebenslauf</p>
+<span class="Verwalte">Verwalte deinen Lebenslauf </span></p>
 
             </div>
         </div>
