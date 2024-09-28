@@ -181,6 +181,7 @@ clip-path: polygon(49.2% 3.8%, 84.9% 1%, 100.1% 4.8%, 99.6% 81%, 84.6% 96%, 55.7
 
 .Nhead_sub{
 color:#718096;
+padding-bottom:2rem;
  font-family: 'Lato', sans-serif;
 
 
@@ -200,7 +201,7 @@ color:#718096;
     margin-left: -12rem;
 }
 .timeline-item.second{
-  gap:12;
+  gap:15rem;
 }
 
 .arrow {
