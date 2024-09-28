@@ -1,9 +1,12 @@
 <script>
+
   import Header from '$lib/Header.svelte';
+
 </script>
 
 <style global>
 .text_bwerben{
+    display: inline-block;
     opacity: 0.8;
     max-width: 90%;
     text-align:right;
