@@ -143,10 +143,10 @@ clip-path: polygon(49.2% 3.8%, 84.9% 1%, 100.1% 4.8%, 99.6% 81%, 84.6% 96%, 55.7
   display: inline-flex;
   justify-content: center; 
   align-items: flex-start;
-  width: 15vw; 
-  height: 15vw; 
+  width: 13vw; 
+  height: 13vw; 
   border-radius: 50%;
-  background-color: #F7FAFC; 
+  background-color: #f8f4f4; /*changed  as  the xd color is nto visible8*/
   color: #718096; 
   font-size: 130px; 
   font-weight: bold; 
