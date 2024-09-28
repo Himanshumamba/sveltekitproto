@@ -197,10 +197,10 @@ color:#718096;
     top: -2rem;
 }
  .timeline-item.one {
-    margin-left: -6rem;
+    margin-left: -12rem;
 }
 .timeline-item.second{
-  gap:22rem;
+  gap:12;
 }
 
 .arrow {
@@ -216,7 +216,7 @@ color:#718096;
 }
 
 .timeline-item.third{
- transform: translate(2rem, -25rem);
+ transform: translate(0rem, -25rem);
  gap:0
 
 }
