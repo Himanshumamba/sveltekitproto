@@ -104,6 +104,17 @@ onMount(() => {
     border-bottom-right-radius: 1em;
     }
 }
+
+  @media (max-width: 480px) {
+
+    
+.hero_button_top {
+display:none;
+}
+   }
+
+
+
 </style>
 
 <header>
