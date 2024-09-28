@@ -141,7 +141,7 @@ clip-path: polygon(49.2% 3.8%, 84.9% 1%, 100.1% 4.8%, 99.6% 81%, 84.6% 96%, 55.7
 .numberlist {
   display: inline-flex;
   justify-content: center; 
-  align-items: flex-start;
+  align-items:center;
   width: 13vw; 
   height: 13vw; 
   border-radius: 50%;
@@ -191,6 +191,10 @@ padding-bottom:2rem;
 }
 
 @media(min-width:768px){
+
+  .timeline .one{
+        align-items: baseline;
+  }
   .text_bwerben{
     display: inline-block;
     max-width: 90%;
@@ -421,7 +425,7 @@ display:none;
 <div class="heading-section">
   <h2>Drei einfache Schritte <br>zu deinem neuen Job</h2>
 </div>
-<section class="timeline">
+<section class="timeline one">
     <div class="container">
         <!-- Section 1-->
         <div class="timeline-item one">
