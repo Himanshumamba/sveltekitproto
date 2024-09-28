@@ -105,7 +105,7 @@ onMount(() => {
     }
 }
 
-  @media (max-width: 480px) {
+  @media (max-width: 680px) {
 
     
 .hero_button_top {

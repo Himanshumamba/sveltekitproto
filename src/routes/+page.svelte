@@ -99,6 +99,7 @@
   .heading-section {
     text-align: center;
     margin-top: 30px;
+    margin-bottom: 4rem;
 
     padding: 20px;
   }
@@ -248,6 +249,7 @@ display: inline-block;
     display: flex;
     height: 64vh;
     justify-content: center;
+    margin-bottom:2rem;
     position: unset;
     padding-left: 20px;
     top: -7rem;
@@ -337,6 +339,11 @@ display:none;
   }
 
   @media (max-width: 480px) {
+
+    .heading-section{
+
+      margin:0rem;
+    }
      .text_bwerben,.Erstellen,Verwalte {
       font-size:15.75px;
     }
