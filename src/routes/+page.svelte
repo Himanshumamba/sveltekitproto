@@ -191,6 +191,14 @@ color:#718096;
 }
 
 @media(min-width:768px){
+  .text_bwerben{
+    display: inline-block;
+    max-width: 90%;
+    margin: 0 auto;
+    position: relative;
+    left: -5rem;
+    top: -2rem;
+}
  .timeline-item.one {
     margin-left: -6rem;
 }
@@ -211,7 +219,7 @@ color:#718096;
 }
 
 .timeline-item.third{
- transform: translate(2rem, -23rem);
+ transform: translate(2rem, -25rem);
  gap:0
 
 }
@@ -226,7 +234,7 @@ display: inline-block;
     margin: 0 auto;
 }
 .hero-banner {
-        margin-top: 5rem;        
+        margin-top: 4rem;        
         clip-path: none;
     }
 
