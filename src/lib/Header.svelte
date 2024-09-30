@@ -15,7 +15,6 @@ function handleScroll() {
 onMount(() => {
   window.addEventListener('scroll', handleScroll);
 
-  // Clean up the scroll listener when the component is destroyed
   return () => {
     window.removeEventListener('scroll', handleScroll);
   };
