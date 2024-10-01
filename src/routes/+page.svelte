@@ -135,7 +135,7 @@ clip-path: polygon(49.2% 3.8%, 84.9% 1%, 100.1% 4.8%, 99.6% 81%, 84.6% 96%, 55.7
 
 }
 .arrow.last_arrow{
-    transform: translate(2rem, -13rem);
+    transform: translate(6rem, -15rem);
 }
 
 
@@ -224,7 +224,7 @@ padding-bottom:2rem;
 }
 
 .timeline-item.third{
- transform: translate(0rem, -25rem);
+ transform: translate(4rem, -29rem);
  gap:0
 
 }
@@ -349,7 +349,7 @@ span.numberlist.three{
 
       margin:0rem;
     }
-     .text_bwerben,.Erstellen,Verwalte {
+     .text_bwerben,.Erstellen,.Verwalte {
       font-size:15.75px;
     }
 
