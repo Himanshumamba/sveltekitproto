@@ -135,7 +135,7 @@ clip-path: polygon(49.2% 3.8%, 84.9% 1%, 100.1% 4.8%, 99.6% 81%, 84.6% 96%, 55.7
 
 }
 .arrow.last_arrow{
-    transform: translate(2rem, -13rem);
+    transform: translate(3rem, -15rem);
 }
 
 
@@ -193,6 +193,9 @@ padding-bottom:2rem;
 
 @media(min-width:768px){
 
+  .Erstellen,.Verwalte ,.text_bwerben  {
+    font-size: clamp(15px, 2vw + 10px, 30px)}
+
   .timeline .one{
         align-items: baseline;
   }
@@ -209,6 +212,7 @@ padding-bottom:2rem;
 }
 .timeline-item.second{
   gap:15rem;
+  margin-left: 5rem;
 }
 
 .arrow {
@@ -217,14 +221,14 @@ padding-bottom:2rem;
     align-items: center;
     position: relative;
     height:50vh;
-    left: -8rem;
+    left: -10rem;
     top: -2rem;
     z-index: +1;
 
 }
 
 .timeline-item.third{
- transform: translate(0rem, -25rem);
+ transform: translate(3rem, -28rem);
  gap:0
 
 }
@@ -469,7 +473,7 @@ span.numberlist.three{
             </div>
             <div class="text">
                             <p class="Nhead_sub"><span class="numberlist_two" >2.</span>
-<span class="Verwalte">Verwalte deinen Lebenslauf </span></p>
+<span class="Verwalte">Erstellen dein Lebenslauf </span></p>
 
             </div>
         </div>
